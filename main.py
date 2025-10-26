@@ -133,7 +133,7 @@ def main():
     """Hàm chính để khởi chạy bot"""
     
     # Lấy token từ environment variable
-    TELEGRAM_TOKEN = os.getenv('8318094060:AAGXPli-P7R2Fu4GvGwEi3NrpXaR9AlgbFM')
+    TELEGRAM_TOKEN = os.getenv('8388524097:AAHRj0zshAPnLlm7ECWzEW2-iWEdvILngv8')
     if not TELEGRAM_TOKEN:
         logger.error("❌ Không tìm thấy TELEGRAM_TOKEN trong environment variables!")
         return
